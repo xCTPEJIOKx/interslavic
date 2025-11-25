@@ -1,5 +1,5 @@
 services:
-  - type: web
+  - type: worker
     name: interslavic-bot
     env: python
     plan: free
