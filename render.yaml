@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: interslavic-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python working_bot.py
